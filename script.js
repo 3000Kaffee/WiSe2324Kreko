@@ -1,3 +1,14 @@
+/* Hier ist ein einfaches Beispiel für eine Galerie mit TypeScript,
+bei der man durch Klicken auf Schaltflächen links und rechts neue Bilder erhalten kann.
+Bitte beachten Sie, dass dies nur eine grundlegende Implementierung ist und je nach Ihren Anforderungen erweitert werden kann:
+
+typescript */
+// Definiere eine Schnittstelle für ein Bildobjekt
+document.addEventListener("DOMContentLoaded", function () {
+    var audio = new Audio('./Einsamkeit.mp3');
+    audio.loop = true;
+    audio.play();
+});
 console.log("Hello world!");
 // Definiere eine Klasse für die Galerie
 class Gallery {
@@ -47,7 +58,8 @@ class Gallery {
 const images = [
     { src: './Bilder/Bild1000.jpg', alt: 'Image 1' },
     { src: './Bilder/Bild2000.jpg', alt: 'Image 2' },
-    { src: './Bilder/Bild4000.jpg', alt: 'Image 3' }
+    { src: './Bilder/Bild4000.jpg', alt: 'Image 3' },
+    { src: './Bilder/IMG_4098.JPG', alt: 'Image 4' },
 ];
 // Initialisierung der Galerie mit den Bildern
 const gallery = new Gallery(images);

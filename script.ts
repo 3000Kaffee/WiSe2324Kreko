@@ -82,7 +82,7 @@ const images: Image[] = [
     { src: './Bilder/Bild1000.jpg', alt: 'Image 1' },
     { src: './Bilder/Bild2000.jpg', alt: 'Image 2' },
     { src: './Bilder/Bild4000.jpg', alt: 'Image 3' },
-    { src: './Bilder/Bild550_10.jpg', alt: 'Image 4' },
+    { src: './Bilder/IMG_4098.JPG', alt: 'Image 4' },
     
 ];
 
